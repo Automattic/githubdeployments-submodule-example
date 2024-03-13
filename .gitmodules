@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = wp-content/mu-plugins/public-submodule
+	url = https://github.com/Automattic/githubdeployments-public-mu-plugin-example
+[submodule "private"]
+	path = wp-content/mu-plugins/private-submodule
+	url = https://github.com/Automattic/githubdeployments-private-mu-plugin-example
