@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@master
         with:
           submodules: true
+          token: ${{ secrets.REPO_PAT }}
       - name: Upload the artifact
         uses: actions/upload-artifact@v4
         with:
