@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@master
         with:
           submodules: true
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }} # only required for private repos
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }} # only required when using private repos as submodules
       - name: Upload the artifact
         uses: actions/upload-artifact@v4
         with:
